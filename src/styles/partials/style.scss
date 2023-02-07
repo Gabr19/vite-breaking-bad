@@ -1,0 +1,57 @@
+.container_grande{
+    background-color: #d48f38;
+    height: 100%;
+}
+
+.container_medio{
+    height: 100%;
+}
+
+.my_search{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+
+}
+
+.container_piccolo{
+    background-color: white;
+    height: 90%;
+    width: 100%;
+}
+
+
+
+.found_bar{
+    background-color: #212529;
+    color: white;
+
+}
+
+.my_card{
+    height: 200px;
+    width: calc(100% / 6);
+    background-color: aqua;
+    margin: 10px 10px;
+}
+
+.my_img{
+    height: 70%;
+    width: 100%;
+}
+
+#img_card{
+    height: 100%;
+    width: 100%;
+    
+    background-size: contain;
+}
+
+#my_text{
+    height: 30%;
+    width: 100%;
+    background-color: green;
+    color: white;
+}
+
