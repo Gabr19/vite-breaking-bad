@@ -31,7 +31,7 @@ export default {
         <div class="container_card d-flex flex-wrap justify-content-between ">
           <div class="my_card" v-for="character in charactersList">
             <div class="my_img">
-              <img id="img_card" :src="character.card_images" alt="">
+              <img id="img_card" :src="character.card_images[0].image_url" alt="">
             </div>
             <div id="my_text">
               {{character.name}}
